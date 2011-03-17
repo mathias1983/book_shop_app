@@ -1,4 +1,8 @@
 BookShopApp::Application.routes.draw do
+  get "book/order"
+
+  get "book/new"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
